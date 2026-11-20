@@ -40,6 +40,13 @@ Recurso educativo interactivo y 100 % autónomo (sin dependencias externas) dise
 
 ---
 
+## 🔖 Control de versiones
+
+- **Versión actual:** `v2.1.0`
+- Consulta el historial detallado de mejoras y correcciones en [`CHANGELOG.md`](./CHANGELOG.md).
+
+---
+
 ## ✍️ Autoría y licencia
 
 - **Autoría y curaduría pedagógica:** María Esther Espinoza Juárez, Especialista en Tecnopedagogía e Innovación con IA · **E-PARTNER CLASS**
