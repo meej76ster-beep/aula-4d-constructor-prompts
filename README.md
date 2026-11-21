@@ -20,7 +20,7 @@ Recurso educativo interactivo y 100 % autónomo (sin dependencias externas) dise
 3. **Ejemplos comparados:** Tres casos listos (*Simulador de efecto invernadero*, *Estudio de caso y rúbrica de salud comunitaria*, y *Tutor socrático de decisiones éticas con IA*) con contraste *Prompt genérico vs. Prompt 4D*, copia directa y opción para adaptarlos en el constructor.
 4. **Constructor dual (`⚡ Lite (Rápido)` por defecto + `🎯 Completo (4D Pro)`):**
    - **Modo `⚡ Lite (Rápido)` (novedad v3.0):** pantalla única sin fricción con 7 ítems esenciales (*tipo de recurso, tema y alcance, objetivos de aprendizaje, audiencia, modalidad/duración/formato, contexto real y enfoque evaluativo*), aplicando automáticamente salvaguardas pedagógicas y éticas D1–D4.
-   - **Importador local de planificaciones (`📄 Importar planificación`):** carga archivos `.pdf`, `.txt` o `.md` (o texto pegado) 100 % en el navegador para autocompletar los campos del encuadre y el ciclo 4D, con opción de adjuntar un extracto sintetizado al prompt maestro.
+   - **Importador local de planificaciones (`📄 Importar planificación`):** carga archivos `.pdf`, `.txt` o `.md` (o texto pegado) 100 % en el navegador y reconstruye tablas y saltos de línea del PDF para **autocompletar automáticamente** tema, asignatura, alcance, objetivos, audiencia, modalidad, duración, contexto real, evaluación y rigor. Tú **solo eliges qué herramienta crear** en el punto 1; si la planificación está incompleta, el sistema emite una **alerta con botones clicables** para completar los criterios faltantes.
    - **Modo `🎯 Completo (4D Pro)` (paso a paso):** permite alternar en cualquier momento sin perder datos para personalizar cada detalle del ciclo **Encuadre + D1–D4**. Incluye:
      - **Paso 0 · Encuadre instruccional:** Tipo de recurso (*Simulador, Tutor, Actividad situada, Estudio de caso, Guía DUA, Rúbrica o Personalizada*), asignatura/curso, tema central, alcance, objetivos de aprendizaje y **selector flexible de participantes** en 3 modos:
        - *Entorno educativo* (`Preescolar / Inicial`, `Primaria / Básica`, `Secundaria / Media`, `Técnico-Profesional`, `Universitario / Superior`, `Posgrado / Formación Docente` con grados/subniveles dinámicos).
@@ -47,7 +47,7 @@ Recurso educativo interactivo y 100 % autónomo (sin dependencias externas) dise
 
 ## 🔖 Control de versiones
 
-- **Versión actual:** `v3.0.0`
+- **Versión actual:** `v3.1.0`
 - Consulta el historial detallado de mejoras y correcciones en [`CHANGELOG.md`](./CHANGELOG.md).
 
 ---

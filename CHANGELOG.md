@@ -2,6 +2,17 @@
 
 Todos los cambios relevantes de **Aula 4D · Constructor de Prompts Pedagógicos con IA** se documentan en este archivo siguiendo el estándar [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y [Versionado Semántico (SemVer)](https://semver.org/lang/es/).
 
+## [v3.1.0] - 2026-11-21
+
+### Añadido
+- **Reconstrucción real de líneas y tablas en PDF (`reconstructPdfPageLines` + tokens PDF):** preserva saltos de línea, detección de columnas (`|`), cadenas hexadecimales UTF-16BE y precarga de `pdf.worker.min.js` en hilo principal para compatibilidad en archivos locales (`file:///`) y GitHub Pages.
+- **Autocompletado integral sin elegir la herramienta por el docente:** al subir una planificación o pegar texto, se rellenan automáticamente tema, asignatura, alcance, objetivos, perfil de participantes, modalidad, duración, formato sugerido, contexto real, enfoque evaluativo y rigor/campos Pro 4D, dejando intacto el punto 1 (`state.tool`) para que tú elijas qué recurso deseas crear (y ajustando el formato recomendado al seleccionarlo).
+- **Alerta inteligente de planificación incompleta o mal estructurada:** nuevo bloque `#pdfMissingBox`, llamado violeta `#pdfToolCallout`, banner en Modo Lite `#litePlanBanner` y resaltado visual (`.plan-filled` / `.plan-missing` / `.plan-pick-tool`) con botones de salto rápido que desaparecen en vivo conforme completas cada campo.
+
+### Mejorado
+- **Analizador en español ampliado (`parseLessonPlan`):** soporta tablas con barras o columnas paralelas, encabezados inline en una sola línea, secciones sin dos puntos (*Área de formación, Tema generador, Propósito, Técnicas e instrumentos, Escala de estimación, Media General, 2 horas académicas*), ordinales escritos en palabras y respaldos para planificaciones redactadas en prosa sin etiquetas.
+- Nunca inventa objetivos, modalidad, duración, contexto o evaluación cuando el documento carece de ellos, garantizando alertas honestas.
+
 ## [v3.0.0] - 2026-11-21
 
 ### Añadido
