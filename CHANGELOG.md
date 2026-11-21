@@ -2,6 +2,16 @@
 
 Todos los cambios relevantes de **Aula 4D · Constructor de Prompts Pedagógicos con IA** se documentan en este archivo siguiendo el estándar [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y [Versionado Semántico (SemVer)](https://semver.org/lang/es/).
 
+## [v2.2.1] - 2026-11-21
+
+### Cambiado
+- **Licenciamiento comercial por suscripción:** sustitución de la referencia anterior `CC BY-NC-SA 4.0` por **© 2026 Todos los derechos reservados · Licencia Comercial Propietaria por Suscripción (EULA)** en el pie de página de la aplicación y en `README.md`.
+
+### Añadido
+- **Archivo [`LICENSE`](./LICENSE):** documento legal con los términos de licencia propietaria por suscripción para **María Esther Espinoza Juárez · E-PARTNER CLASS**.
+
+---
+
 ## [v2.2.0] - 2026-11-21
 
 ### Añadido
