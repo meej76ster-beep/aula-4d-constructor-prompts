@@ -2,6 +2,19 @@
 
 Todos los cambios relevantes de **Aula 4D · Constructor de Prompts Pedagógicos con IA** se documentan en este archivo siguiendo el estándar [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y [Versionado Semántico (SemVer)](https://semver.org/lang/es/).
 
+## [v3.0.0] - 2026-11-21
+
+### Añadido
+- **Modo `⚡ Lite (Rápido)` como experiencia predeterminada del Constructor:** flujo en una sola pantalla con 7 ítems de alto impacto (*tipo de recurso, tema/alcance/asignatura, objetivos de aprendizaje, perfil de participantes en 3 modos, modalidad/duración/formato de salida, contexto real y enfoque evaluativo*, más campo opcional de rigor clave), con salvaguardas D1–D4 aplicadas automáticamente y botón directo `✦ Generar Prompt Excelente →`.
+- **Conmutador bidireccional `⚡ Lite (Rápido)` ↔ `🎯 Completo (4D Pro)`:** comparte el mismo estado en memoria para pasar al flujo detallado de 6 pasos o regresar a la vista rápida sin perder ningún dato capturado.
+- **Importador local de planificaciones (`📄 Importar planificación`):**
+  - Soporta archivos `.pdf`, `.txt`, `.md` por arrastre o selector de archivos, además de pegado manual de texto para PDF escaneados o documentos Word.
+  - Procesamiento **100 % local en el navegador** (doble motor PDF: lector PDF.js bajo demanda al abrir un PDF cuando hay red y respaldo offline nativo con `DecompressionStream('deflate')` + análisis de tokens PDF).
+  - Detección automática en español de asignatura, tema, alcance, objetivos, nivel educativo y/o rango de edad, modalidad, duración, saberes previos, contexto real, evaluación, rigor/errores conceptuales y tipo de recurso, con chips informativos y opción editable para adjuntar `# PLANIFICACIÓN BASE ADJUNTA (EXTRACTO)` al Prompt Maestro.
+
+### Cambiado
+- Ajuste del cálculo de puntaje (`evaluateDesign`) y construcción de prompts (`buildPromptText`) para evaluar los 7 ítems esenciales cuando el usuario trabaja en Modo Lite manteniendo la puntuación completa `0–100%` y la coherencia con las 4 dimensiones del Marco 4D.
+
 ## [v2.2.1] - 2026-11-21
 
 ### Cambiado

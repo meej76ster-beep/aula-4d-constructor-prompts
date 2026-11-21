@@ -18,11 +18,14 @@ Recurso educativo interactivo y 100 % autónomo (sin dependencias externas) dise
 1. **Portada:** Presentación visual con el diagrama orbital centrado en el **Criterio Docente** y accesos directos a la guía y al constructor.
 2. **Buenas prácticas 4D:** Resumen instruccional en 3 momentos (*Encuadre previo → Ciclo 4D → Validación humana*) y explorador interactivo de cada dimensión.
 3. **Ejemplos comparados:** Tres casos listos (*Simulador de efecto invernadero*, *Estudio de caso y rúbrica de salud comunitaria*, y *Tutor socrático de decisiones éticas con IA*) con contraste *Prompt genérico vs. Prompt 4D*, copia directa y opción para adaptarlos en el constructor.
-4. **Constructor (1 paso a la vez):**
-   - **Paso 0 · Encuadre instruccional:** Tipo de recurso (*Simulador, Tutor, Actividad situada, Estudio de caso, Guía DUA, Rúbrica o Personalizada*), asignatura/curso, tema central, alcance, objetivos de aprendizaje y **selector flexible de participantes** en 3 modos:
-     - *Entorno educativo* (`Preescolar / Inicial`, `Primaria / Básica`, `Secundaria / Media`, `Técnico-Profesional`, `Universitario / Superior`, `Posgrado / Formación Docente` con grados/subniveles dinámicos).
-     - *Fuera del entorno escolar* (rangos de edad, edades exactas opcionales y ámbito no formal).
-     - *Ambos (Nivel + Edad)*.
+4. **Constructor dual (`⚡ Lite (Rápido)` por defecto + `🎯 Completo (4D Pro)`):**
+   - **Modo `⚡ Lite (Rápido)` (novedad v3.0):** pantalla única sin fricción con 7 ítems esenciales (*tipo de recurso, tema y alcance, objetivos de aprendizaje, audiencia, modalidad/duración/formato, contexto real y enfoque evaluativo*), aplicando automáticamente salvaguardas pedagógicas y éticas D1–D4.
+   - **Importador local de planificaciones (`📄 Importar planificación`):** carga archivos `.pdf`, `.txt` o `.md` (o texto pegado) 100 % en el navegador para autocompletar los campos del encuadre y el ciclo 4D, con opción de adjuntar un extracto sintetizado al prompt maestro.
+   - **Modo `🎯 Completo (4D Pro)` (paso a paso):** permite alternar en cualquier momento sin perder datos para personalizar cada detalle del ciclo **Encuadre + D1–D4**. Incluye:
+     - **Paso 0 · Encuadre instruccional:** Tipo de recurso (*Simulador, Tutor, Actividad situada, Estudio de caso, Guía DUA, Rúbrica o Personalizada*), asignatura/curso, tema central, alcance, objetivos de aprendizaje y **selector flexible de participantes** en 3 modos:
+       - *Entorno educativo* (`Preescolar / Inicial`, `Primaria / Básica`, `Secundaria / Media`, `Técnico-Profesional`, `Universitario / Superior`, `Posgrado / Formación Docente` con grados/subniveles dinámicos).
+       - *Fuera del entorno escolar* (rangos de edad, edades exactas opcionales y ámbito no formal).
+       - *Ambos (Nivel + Edad)*.
    - **Paso 1 · D1 Delegar:** Fase de clase, enfoque pedagógico, nivel UNESCO, tareas delegadas a la IA y decisiones irrenunciables del docente.
    - **Paso 2 · Describir:** Saberes previos, contexto local, modalidad, duración, formato de salida, andamiaje anti «sedentarismo cognitivo» (*Performance ≠ Learning*), criterios observables de logro y usabilidad.
    - **Paso 3 · Discernir:** Rigor disciplinar, prevención de errores conceptuales y alucinaciones, política de fuentes, análisis crítico en aula y auditoría automática.
@@ -44,7 +47,7 @@ Recurso educativo interactivo y 100 % autónomo (sin dependencias externas) dise
 
 ## 🔖 Control de versiones
 
-- **Versión actual:** `v2.2.1`
+- **Versión actual:** `v3.0.0`
 - Consulta el historial detallado de mejoras y correcciones en [`CHANGELOG.md`](./CHANGELOG.md).
 
 ---
