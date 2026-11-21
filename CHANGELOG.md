@@ -2,6 +2,15 @@
 
 Todos los cambios relevantes de **Aula 4D · Constructor de Prompts Pedagógicos con IA** se documentan en este archivo siguiendo el estándar [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y [Versionado Semántico (SemVer)](https://semver.org/lang/es/).
 
+## [v2.2.0] - 2026-11-21
+
+### Añadido
+- **Identidad visual oficial de E-PARTNER CLASS:** integración de `LogoOficial_EpartnerClass.png` e `Icono_EpartnerClass.png` en barra superior, portada (`Hero`), pie de página y favicon oficial.
+- **Soporte claro/oscuro e independencia offline:** contenedor `.logo-plate` con contraste cuidado en ambos temas y carga híbrida en Base64 para que el archivo HTML único siga funcionando 100 % sin conexión incluso fuera de la carpeta del proyecto.
+- **Organización de activos del repositorio:** incorporación de `assets/logo-epartnerclass.png`, `assets/icono-epartnerclass.png` y `.gitignore` (resguardando `Imagen corporativa/` fuera del repositorio público).
+
+---
+
 ## [v2.1.0] - 2026-11-20
 
 ### Corregido

@@ -1,3 +1,5 @@
+<p align="left"><img src="./assets/logo-epartnerclass.png" alt="E-PARTNER CLASS" height="64"></p>
+
 # Aula 4D · Constructor de Prompts Pedagógicos con IA
 
 **E-PARTNER CLASS · Ecosistemas de Aprendizaje con IA**
@@ -42,7 +44,7 @@ Recurso educativo interactivo y 100 % autónomo (sin dependencias externas) dise
 
 ## 🔖 Control de versiones
 
-- **Versión actual:** `v2.1.0`
+- **Versión actual:** `v2.2.0`
 - Consulta el historial detallado de mejoras y correcciones en [`CHANGELOG.md`](./CHANGELOG.md).
 
 ---
